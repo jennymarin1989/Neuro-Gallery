@@ -1,0 +1,46 @@
+
+body{
+  background-color: #282c34;
+}
+
+div#cursor{
+  position: absolute;
+  width: 63px;
+  height: 64px;
+  background-image: url('./icons/brain.png');
+  transform-origin: 50%;
+}
+
+.nav-bar {
+  justify-content: space-around;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  font-weight: 100;
+  padding: 0.5em;
+  background-color: lightgray
+}
+
+.instructions-nav {
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  font-weight: 300;
+  background-color: #5fd465;
+}
+
+.blink-nav {
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  font-weight: 300;
+  background-color: #5fd465
+}
+
+
+
+
+
+
+
+
+

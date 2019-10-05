@@ -1,0 +1,43 @@
+
+.home {
+  text-align: center;
+  cursor: none
+}
+
+.home-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-weight: lighter;
+  color: white;
+}
+
+
+.home-link {
+    color: #5fd465;
+    font-size: calc(5px + 3vmin);
+    font-weight: lighter
+  }
+  
+.home-logo {
+    animation: home-logo-spin infinite 5s linear;
+    height: 35vmin;
+    pointer-events: none;
+  }
+
+.home-title {
+  font-weight: 200
+}
+
+@keyframes home-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}

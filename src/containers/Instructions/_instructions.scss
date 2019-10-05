@@ -1,0 +1,24 @@
+.instructions {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    font-weight: lighter
+  }
+  
+.text-area {
+    width: 50%;
+    height: 50%;
+    display: flex;
+}
+
+.heading-instructions {
+    padding-bottom: 1em;
+    font-size: calc(25px + 2vmin);
+    font-weight: 200;
+    color: #ffffff;
+    text-align: justify
+}
