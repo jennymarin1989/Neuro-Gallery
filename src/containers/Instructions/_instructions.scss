@@ -16,9 +16,14 @@
 }
 
 .heading-instructions {
-    padding-bottom: 1em;
     font-size: calc(25px + 2vmin);
     font-weight: 200;
     color: #ffffff;
     text-align: justify
+}
+
+.blink-strength-link {
+    color: #5fd465;
+    font-size: calc(4px + 3vmin);
+    font-weight: lighter
 }
