@@ -20,12 +20,18 @@ div#cursor{
   background-color: lightgray
 }
 
+.home-nav {
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  font-weight: 300;
+}
+
 .instructions-nav {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
   font-weight: 300;
-  background-color: #5fd465;
 }
 
 .blink-nav {
@@ -33,7 +39,6 @@ div#cursor{
   font-size: calc(10px + 2vmin);
   color: black;
   font-weight: 300;
-  background-color: #5fd465
 }
 
 

@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import { Switch, Route } from 'react-router-dom'
 import Home from './containers/Home'
 import Instructions from './containers/Instructions'
@@ -13,7 +13,7 @@ const App = () => {
 
 
   useEffect(() => {
-    window.scrollTo(0,0)
+    window.scrollTo(0, 0)
   }, [])
 
   return (
@@ -22,7 +22,7 @@ const App = () => {
         <NavLink to="/">
           Home
         </NavLink>
-        <NavLink  to="/instructions" activeClassName="instructions-nav">
+        <NavLink to="/instructions" activeClassName="instructions-nav">
           Instructions
         </NavLink>
         <NavLink to="/blink" activeClassName="blink-nav">
@@ -30,9 +30,9 @@ const App = () => {
         </NavLink>
       </div>
       <Switch>
-        <Route exact path="/" component={Home}/>
-        <Route exact path="/instructions" component={Instructions}/>
-        <Route exact path="/blink" component={BlinkTest}/>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/instructions" component={Instructions} />
+        <Route exact path="/blink" component={BlinkTest} />
       </Switch>
     </div>
   );
